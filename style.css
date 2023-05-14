@@ -112,31 +112,31 @@ body{
     }
     70%{
         background-color: gold;
-        transform: translate(920px , 400px) ;
+        transform: translate(920px , 400px) scaleX(0.5) ;
     }
     70.5%{
         background-color: gold;
-        transform: translate(920px , 400px) ;
+        transform: translate(920px , 400px) scale(1) ;
     }
     80%{
         background-color:maroon;
-        transform: translate(1020px , 720px) ;
+        transform: translate(1020px , 720px) scaleX(0.5) ;
     }
     80.5%{
         background-color:maroon;
-        transform: translate(1020px , 720px) ;
+        transform: translate(1020px , 720px) scaleY(0.6);
     }
     85%{
         background-color: darkolivegreen;
-        transform: translate(1120px , 540px) ;
+        transform: translate(1120px , 540px) scaleX(0.5);
     }
     85.5%{
         background-color: darkolivegreen;
-        transform: translate(1120px , 540px) ;
+        transform: translate(1120px , 540px) scale(1) ;
     }
     90%{
         background-color:darkslategray;
-        transform: translate(1220px , 730px) ;
+        transform: translate(1220px , 730px);
     }
     90.5%{
         background-color:darkslategray;
@@ -148,7 +148,7 @@ body{
     }
     95.5%{
         background-color:chocolate;
-        transform: translate(1320px , 720px) ;
+        transform: translate(1320px , 720px) scale(1) ;
     }
     100%{
         background-color:red;
