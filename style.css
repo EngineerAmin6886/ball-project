@@ -52,13 +52,13 @@ body{
 @keyframes ball-move {
     10%{
         background-color: red;
-        transform: translateX(100px) rotate(3600deg);
+        transform: translate(100px,10px) rotate(3600deg);
     }
-    19%{
+    15%{
         background-color: green;
         transform: translate(230px , 720px) scaleX(0.5);
     }
-    19.5%{
+    17.5%{
         background-color: green;
         transform: translate(230px , 710px) scaleY(0.1);
     }
@@ -112,47 +112,43 @@ body{
     }
     70%{
         background-color: gold;
-        transform: translate(920px , 400px) scaleX(0.5);
+        transform: translate(920px , 400px) ;
     }
     70.5%{
         background-color: gold;
-        transform: translate(920px , 400px) scaleY(1);
+        transform: translate(920px , 400px) ;
     }
     80%{
         background-color:maroon;
-        transform: translate(1020px , 720px) scaleX(0.5);
+        transform: translate(1020px , 720px) ;
     }
     80.5%{
         background-color:maroon;
-        transform: translate(1020px , 720px) scaleY(0.7);
+        transform: translate(1020px , 720px) ;
     }
     85%{
         background-color: darkolivegreen;
-        transform: translate(1120px , 540px) scaleX(0.5);
+        transform: translate(1120px , 540px) ;
     }
     85.5%{
         background-color: darkolivegreen;
-        transform: translate(1120px , 540px) scale(1);
+        transform: translate(1120px , 540px) ;
     }
     90%{
         background-color:darkslategray;
-        transform: translate(1220px , 720px) scaleX(0.5);
+        transform: translate(1220px , 730px) ;
     }
     90.5%{
         background-color:darkslategray;
-        transform: translate(1220px , 720px) scaleY(0.8);
+        transform: translate(1220px , 720px) ;
     }
     95%{
         background-color:chocolate;
-        transform: translate(1320px , 700px) scaleX(0.5);
+        transform: translate(1320px , 720px);
     }
     95.5%{
         background-color:chocolate;
-        transform: translate(1320px , 700px) scale(1);
-    }
-    99.5%{
-        background-color:red;
-        transform: translate(1420px , 720px) scaleY(0.9);
+        transform: translate(1320px , 720px) ;
     }
     100%{
         background-color:red;
@@ -163,7 +159,7 @@ body{
 
 /* code containar of hover ball [START]  */
 #contenar:hover #ball{
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-name: ball-move;
     animation-iteration-count: 1;
     animation-direction: normal;
